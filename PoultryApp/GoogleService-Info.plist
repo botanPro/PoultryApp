@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>789524607192-e0fdt48qenktma5pvhc4rkqdclc0fllc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.789524607192-e0fdt48qenktma5pvhc4rkqdclc0fllc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>789524607192-tup7m939t330uqb9l5mijjcg9p8asefq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDyEh0vTnl0Pw9EN4XziwbADIIEWH2Qqvw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>789524607192</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.poultryeasy-tech.PoultryApp</string>
+	<key>PROJECT_ID</key>
+	<string>iraq-poultry-a17ca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iraq-poultry-a17ca.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:789524607192:ios:ce3e36bd2b817be6e327ad</string>
+</dict>
+</plist>

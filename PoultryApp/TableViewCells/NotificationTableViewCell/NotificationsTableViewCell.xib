@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="NotificationsTableViewCell" customModule="Rebare_Adam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rg-mC-RsD">
+                        <rect key="frame" x="5" y="5" width="310" height="90"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHs-6F-6EX">
+                                <rect key="frame" x="297" y="8" width="5" height="74"/>
+                                <color key="backgroundColor" red="0.0" green="0.4920948148" blue="0.77869987490000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="AL0-ld-o6i"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8uf-cC-17m">
+                                <rect key="frame" x="12.5" y="25" width="265" height="39"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vs2-kg-r8N">
+                                        <rect key="frame" x="0.0" y="0.5" width="225" height="38"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rebare Adam" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHA-WC-tR0">
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="8GK-fw-evC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWV-is-Cc3" customClass="FFLabel" customModule="FFLabel">
+                                                <rect key="frame" x="0.0" y="21" width="225" height="17"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="  ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.18246794629999999" green="0.5" blue="0.4530017677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-appointment_reminders" translatesAutoresizingMaskIntoConstraints="NO" id="YLb-JY-3lF">
+                                        <rect key="frame" x="240" y="6" width="25" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="NOs-iC-rs8"/>
+                                            <constraint firstAttribute="height" constant="27" id="iPf-sH-hC0"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IH1-Pz-05A">
+                                <rect key="frame" x="8" y="69" width="279" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Hzc-8y-u7L"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="jun 12  02:18 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1835895568" green="0.50307344539999999" blue="0.45578632009999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bHs-6F-6EX" firstAttribute="leading" secondItem="IH1-Pz-05A" secondAttribute="trailing" constant="10" id="Du1-uw-jpB"/>
+                            <constraint firstItem="bHs-6F-6EX" firstAttribute="leading" secondItem="8uf-cC-17m" secondAttribute="trailing" constant="19.5" id="NCu-Ul-mdp"/>
+                            <constraint firstItem="8uf-cC-17m" firstAttribute="leading" secondItem="0rg-mC-RsD" secondAttribute="leading" constant="12.5" id="Qvr-Hk-Wxl"/>
+                            <constraint firstAttribute="bottom" secondItem="bHs-6F-6EX" secondAttribute="bottom" constant="8" id="aix-r8-4DJ"/>
+                            <constraint firstAttribute="bottom" secondItem="IH1-Pz-05A" secondAttribute="bottom" constant="5" id="dZl-md-1qN"/>
+                            <constraint firstAttribute="trailing" secondItem="bHs-6F-6EX" secondAttribute="trailing" constant="8" id="h8C-hH-XDb"/>
+                            <constraint firstItem="8uf-cC-17m" firstAttribute="top" secondItem="0rg-mC-RsD" secondAttribute="top" constant="25" id="kLw-Jq-0B3"/>
+                            <constraint firstItem="bHs-6F-6EX" firstAttribute="top" secondItem="0rg-mC-RsD" secondAttribute="top" constant="8" id="n4x-6d-Fxi"/>
+                            <constraint firstItem="IH1-Pz-05A" firstAttribute="leading" secondItem="0rg-mC-RsD" secondAttribute="leading" constant="8" id="rbD-zK-5d2"/>
+                            <constraint firstItem="IH1-Pz-05A" firstAttribute="top" secondItem="8uf-cC-17m" secondAttribute="bottom" constant="5" id="tl6-Tq-VgB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0rg-mC-RsD" secondAttribute="trailing" constant="5" id="Arj-nc-Ukj"/>
+                    <constraint firstItem="0rg-mC-RsD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="VYN-eJ-bU6"/>
+                    <constraint firstItem="0rg-mC-RsD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="WQE-be-m6i"/>
+                    <constraint firstAttribute="bottom" secondItem="0rg-mC-RsD" secondAttribute="bottom" constant="5" id="o6Y-pK-fzo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="DateTime" destination="IH1-Pz-05A" id="jdD-JO-axc"/>
+                <outlet property="Description" destination="aWV-is-Cc3" id="YvI-lu-ZUb"/>
+                <outlet property="MainView" destination="0rg-mC-RsD" id="8x4-sb-e9o"/>
+                <outlet property="NotifImage" destination="YLb-JY-3lF" id="Pkf-IG-Luw"/>
+                <outlet property="Title" destination="nHA-WC-tR0" id="vU1-gK-OVz"/>
+                <outlet property="Vieww" destination="bHs-6F-6EX" id="gaN-tG-8uW"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="162.05357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-appointment_reminders" width="37.5" height="37.5"/>
+    </resources>
+</document>
